@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_ebts`
 --
-CREATE DATABASE `db_ebst`;
-USE `db_ebst`;
+CREATE DATABASE `db_ebts`;
+USE `db_ebts`;
 -- --------------------------------------------------------
 
 --
