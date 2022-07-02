@@ -45,7 +45,7 @@ INSERT INTO `tbl_admin` (`id`, `fullname`, `username`, `password`) VALUES
 (3, 'Hernandez, Arthur Paul M', 'r2r', '12345678'),
 (4, 'Santos, Jomalee Cuevas', 'jlsantos', '12345678'),
 (5, 'Jomalee Cuevas Santos', 'jl07', '12345678'),
-(0, 'Khirk G. Mendoza', 'khirk', '12345678');
+(0, 'Khirk G. Mendoza', 'khirk', '12345678'),
 (6, 'Russel Cabusao', 'russ','12345678');
 
 -- --------------------------------------------------------
@@ -91,7 +91,7 @@ INSERT INTO `tbl_customer` (`id`, `fullname`, `address`, `mobile_number`, `birth
 (4, 'Benjamin Gandeza', '143 Cogeo chocolate Hills Antipolo City', '0923847192', '2022-03-02', 'benjamin@gmail.com', 'bbg', 'qwerty98765'),
 (5, 'Arthur Paul', 'asdasdad', '12312312312', '2022-03-04', 'weqwe@gmail.com', 'r2rit0', '12345678'),
 (6, 'Char', 'marikina kanto', '123123123123123123', '2022-03-03', 'qweqwe@gmail.com', 'charles20', 'qwerty123456'),
-(0, 'Khirk', 'balintawak', '09269368630', '1999-08-11', 'mendozatann@gmail.com', 'khirk', '123');
+(0, 'Khirk', 'balintawak', '09269368630', '1999-08-11', 'mendozatann@gmail.com', 'khirk', '123'),
 (7, 'Russel Cabusao','marilao, bulacan', '09054295546','2022-01-06','witwiw@gmail.com','russ','12345678');
 
 
