@@ -46,6 +46,7 @@ INSERT INTO `tbl_admin` (`id`, `fullname`, `username`, `password`) VALUES
 (4, 'Santos, Jomalee Cuevas', 'jlsantos', '12345678'),
 (5, 'Jomalee Cuevas Santos', 'jl07', '12345678'),
 (0, 'Khirk G. Mendoza', 'khirk', '12345678');
+(6, 'Russel Cabusao', 'russ','12345678');
 
 -- --------------------------------------------------------
 
@@ -91,6 +92,8 @@ INSERT INTO `tbl_customer` (`id`, `fullname`, `address`, `mobile_number`, `birth
 (5, 'Arthur Paul', 'asdasdad', '12312312312', '2022-03-04', 'weqwe@gmail.com', 'r2rit0', '12345678'),
 (6, 'Char', 'marikina kanto', '123123123123123123', '2022-03-03', 'qweqwe@gmail.com', 'charles20', 'qwerty123456'),
 (0, 'Khirk', 'balintawak', '09269368630', '1999-08-11', 'mendozatann@gmail.com', 'khirk', '123');
+(7, 'Russel Cabusao','marilao, bulacan', '09054295546','2022-01-06','witwiw@gmail.com','russ','12345678');
+
 
 -- --------------------------------------------------------
 
