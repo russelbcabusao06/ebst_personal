@@ -14,7 +14,16 @@ require_once("config.php");
   <!-- Font Awesome CSS -->
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
   <link rel="icon" href="image/TRANSPARENT BG.png">
-  <link rel="icon" href="crop image-customer/1.png">
+  <img src="crop image-customer/1.png">
+  <img src="crop image-customer/2.png">
+  <img src="crop image-customer/3.png">
+  <img src="crop image-customer/4.png">
+  <img src="crop image-customer/5 1.png">
+  <img src="crop image-customer/5.png">
+  <img src="crop image-customer/6.png">
+  <img src="crop image-customer/7.png">
+  <img src="crop image-customer/8.png">
+  <img src="crop image-customer/9.png">
   <style>
     * {
       font-family: 'Raleway', sans-serif;
