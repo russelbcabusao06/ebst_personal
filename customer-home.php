@@ -13,6 +13,7 @@ require_once("config.php");
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
   <!-- Font Awesome CSS -->
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+  <link rel="icon" href="image/TRANSPARENT BG.png">
   <img src="crop image-customer/1.png">
   <img src="crop image-customer/2.png">
   <img src="crop image-customer/3.png">
