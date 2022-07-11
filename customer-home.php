@@ -333,7 +333,7 @@ require_once("config.php");
     while ($row = $stat->fetch()) {
       echo "<div class='quote'><embed src='data:image/jpg" . ";base64," . base64_encode($row['data']) . "' width='350' height='230' />";
       echo "<h3 style='width:100%;font-size:1.8em;'><b><center>NAME OF CONDO</center></b></h3>";
-      echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><br><img src='crop image-customer/1.png' style='width:6%;'>" . $row['location'] . "</h3>";
+      echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><br><img src='image/location-removebg-preview.png' style='width:6%;'>" . $row['location'] . "</h3>";
       echo "<div style='margin-left:60%;margin-top:-10%;'>";
       echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-cash' viewBox='0 0 16 16'>
     <path d='M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/>
