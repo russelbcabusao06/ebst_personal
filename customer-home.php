@@ -331,7 +331,7 @@ require_once("config.php");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
     while ($row = $stat->fetch()) {
-      echo "<div class='quote'><embed src='data:crop image-customer/1.png" . ";base64," . base64_encode($row['data']) . "' width='350' height='230' />";
+      echo "<div class='quote'><embed src='data:image/jpg" . ";base64," . base64_encode($row['data']) . "' width='350' height='230' />";
       echo "<h3 style='width:100%;font-size:1.8em;'><b><center>NAME OF CONDO</center></b></h3>";
       echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><br><img src='image/location-removebg-preview.png' style='width:6%;'>" . $row['location'] . "</h3>";
       echo "<div style='margin-left:60%;margin-top:-10%;'>";
@@ -349,7 +349,7 @@ require_once("config.php");
     ?>
   </div>
   <div class="iconBox">
-    <img class="icon" id="logo" src="image/ebts_trans.png" style="margin-top:5%">
+    <img class="icon" id="logo" src="crop image-customer/1.png" style="margin-top:5%">
   </div>
   <!-- ======= Footer ======= -->
   <footer id="footer">
