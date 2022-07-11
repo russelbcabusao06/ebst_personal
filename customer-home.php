@@ -23,7 +23,7 @@ require_once("config.php");
   <img src="crop image-customer/6.png">
   <img src="crop image-customer/7.png">
   <img src="crop image-customer/8.png">
-  <img src="crop image-customer/9.png">
+  <img src="crop image-customer/.png">
   <style>
     * {
       font-family: 'Raleway', sans-serif;
@@ -283,7 +283,7 @@ require_once("config.php");
     <div class="collapse navbar-collapse center-column" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a style="margin-left:-130%;"><img src="crop image-customer/1.png" style="height:70px;width:150px;margin-top:5px;"></a>
+          <a style="margin-left:-130%;"><img src="image/ebts_trans.png" style="height:70px;width:150px;margin-top:5px;"></a>
         </li>
         <li class="nav-item">
            <a class="nav-link" href="home.php" style="margin-left:30px;margin-top:20px;font-size:1.1em;font-family:'Segoe UI';">HOME</a>
