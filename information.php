@@ -269,7 +269,7 @@ require_once("config.php");
 	}
 
 	.modal {
-		display: none;
+		display: inline;
 		position: fixed;
 		z-index: 1;
 		left: 0;
