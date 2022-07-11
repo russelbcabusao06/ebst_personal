@@ -269,8 +269,7 @@ require_once("config.php");
 	}
 
 	.modal {
-		display: inline-block;
-		width: 400px;
+		display: none;
 		position: fixed;
 		z-index: 1;
 		left: 0;
