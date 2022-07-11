@@ -46,7 +46,7 @@ INSERT INTO `tbl_admin` (`id`, `fullname`, `username`, `password`) VALUES
 (4, 'Santos, Jomalee Cuevas', 'jlsantos', '12345678'),
 (5, 'Jomalee Cuevas Santos', 'jl07', '12345678'),
 (0, 'Khirk G. Mendoza', 'khirk', '12345678'),
-(7, 'Russel Cabusao', 'russ','12345678');
+(7, 'Russel Cabusao', 'russadmin6','12345678');
 
 -- --------------------------------------------------------
 
