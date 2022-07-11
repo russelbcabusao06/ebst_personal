@@ -260,7 +260,7 @@ require_once("config.php");
 		color: white;
 		margin-top: 20px;
 		height: 25px;
-		width: 400px;
+		width: 355px;
 		border-radius: 5px;
 		font-family: "Times New Roman", Times, serif;
 		text-align: center;
@@ -269,7 +269,8 @@ require_once("config.php");
 	}
 
 	.modal {
-		display: none;
+		display: inline-block;
+		width: 400px;
 		position: fixed;
 		z-index: 1;
 		left: 0;
