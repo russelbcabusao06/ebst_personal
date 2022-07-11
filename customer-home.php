@@ -319,7 +319,6 @@ require_once("config.php");
   <img src="crop image-customer/2.png">
   <img src="crop image-customer/3.png">
   <img src="crop image-customer/4.png">
-  <img src="crop image-customer/4.png">
   <img src="crop image-customer/5.png">
   <img src="crop image-customer/6.png">
   <img src="crop image-customer/7.png">
