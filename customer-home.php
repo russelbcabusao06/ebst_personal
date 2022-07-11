@@ -349,7 +349,7 @@ require_once("config.php");
     ?>
   </div>
   <div class="iconBox">
-    <img class="icon" id="logo" src="crop image-customer/1.png" style="margin-top:5%">
+    <img class="icon" id="logo" src="image/ebts_trans.png" style="margin-top:5%">
   </div>
   <!-- ======= Footer ======= -->
   <footer id="footer">
