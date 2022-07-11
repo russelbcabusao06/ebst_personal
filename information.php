@@ -260,7 +260,7 @@ require_once("config.php");
 		color: white;
 		margin-top: 20px;
 		height: 25px;
-		width: 355px;
+		width: 400px;
 		border-radius: 5px;
 		font-family: "Times New Roman", Times, serif;
 		text-align: center;
