@@ -73,7 +73,7 @@ require_once("config.php");
       display: grid;
       grid-gap: 9.1em;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      background-image: url('crop image-customer/1.png')
+      image: ('crop image-customer/1.png')
     }
     .quote {
       padding: 1em;
