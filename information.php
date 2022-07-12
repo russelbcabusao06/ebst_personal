@@ -129,6 +129,10 @@ require_once("config.php");
 		width: 100px;
 	}
 
+	.pullquote {
+		width: 350px;
+	}
+
 	.location {
 		position: absolute;
 		top: 90;
