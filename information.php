@@ -31,7 +31,7 @@ require_once("config.php");
 		margin: 0 auto;
 		width: 30%;
 		height: 105%;
-		border-radius: 20px;
+		border: 20px;
 	}
 
 	.img-ebts_logo {
