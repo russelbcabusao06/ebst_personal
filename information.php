@@ -22,7 +22,7 @@ require_once("config.php");
 		font-family: 'Raleway', sans-serif;
 		font-family: 'Source Sans Pro', sans-serif;
 		margin: 0 auto;
-		padding: 0;
+		width: 400px;
 	}
 
 	.reservation-box {
@@ -32,7 +32,6 @@ require_once("config.php");
 		width: 30%;
 		height: 105%;
 		border-radius: 20px;
-		border: 3px solid #fff4f3;
 	}
 
 	.img-ebts_logo {
