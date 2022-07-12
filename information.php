@@ -67,7 +67,7 @@ require_once("config.php");
 
 	.border1 {
 		position: relative;
-		width: 355px;
+		width: 100px;
 		height: 225px;
 		border: 2px solid #766260;
 	}
