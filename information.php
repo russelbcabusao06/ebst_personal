@@ -29,9 +29,13 @@ require_once("config.php");
 		background-color: #fff4f3;
 		position: relative;
 		margin: 0 auto;
+		height: 500px;
 		height: 105%;
+		width: 1000px;
 		width: 30%;
+		border: 1px solid #fff4f3;
 		border-radius: 20px;
+		float: center:
 	}
 
 	.img-ebts_logo {
@@ -39,7 +43,9 @@ require_once("config.php");
 		padding-right: 100px;
 		width: 50%;
 		margin: 0 auto;
-		position: fixed;
+		position: relative;
+		border: 1px solid #fff4f3;
+		float: center;
 	}
 
 	.fa-circle-xmark {
