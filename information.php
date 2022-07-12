@@ -32,7 +32,7 @@ require_once("config.php");
 		height: 105%;
 		width: 30%;
 		max-width: 576px;
-		padding: 16px;
+		padding: 32spx;
 		border-radius: 20px;
 		border: 4px solid #fff4f3;
 	}
@@ -181,7 +181,7 @@ require_once("config.php");
 		font-family: "Times New Roman", Times, serif;
 		font-size: 15px;
 		font-weight: bold;
-		color: #786462;
+		color: #786462; 
 		margin-left: 10px;
 		margin-top: 20px;
 	}
