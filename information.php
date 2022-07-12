@@ -74,9 +74,6 @@ require_once("config.php");
 		width: 355px;
 		height: 225px;
 		border: 2px solid #766260;
-		max-width: 400px;
-		min-width: 200px;
-		box-sizing: content-box;
 	}
 
 	.fa-house-chimney {
