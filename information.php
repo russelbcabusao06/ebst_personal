@@ -29,11 +29,10 @@ require_once("config.php");
 		background-color: #fff4f3;
 		position: relative;
 		margin: 0 auto;
-		width: 30%;
+		width: 100%;
 		height: 105%;
 		border-radius: 20px;
 		border: 3px solid #fff4f3;
-		max width: 50%;
 	}
 
 	.img-ebts_logo {
