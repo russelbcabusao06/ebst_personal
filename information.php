@@ -70,10 +70,6 @@ require_once("config.php");
 		width: 355px;
 		height: 225px;
 		border: 2px solid #766260;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		padding-right: 150px;
-		padding-left: 150px
 	}
 
 	.fa-house-chimney {
