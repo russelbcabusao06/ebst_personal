@@ -26,7 +26,7 @@ require_once("config.php");
 	}
 
 	.reservation-box {
-		background-color: #fff4f3;
+		background-color: #red;
 		position: relative;
 		margin: 0 auto;
 		width: 30%;
@@ -35,7 +35,7 @@ require_once("config.php");
 		background-origin: content-box;
   		background-repeat: no-repeat;
   		background-size: cover;
-  		border: 5px #fff4f3 solid;
+  		border: 5px #red solid;
   		padding: 20px;
 	}
 
