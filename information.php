@@ -39,7 +39,7 @@ require_once("config.php");
 		padding-right: 100px;
 		width: 50%;
 		margin: 0 auto;
-		position: relative;
+		position: fixed;
 	}
 
 	.fa-circle-xmark {
