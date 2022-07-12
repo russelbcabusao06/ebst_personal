@@ -38,6 +38,7 @@ require_once("config.php");
 		padding-left: 100px;
 		padding-right: 100px;
 		width: 50%;
+		position: relative
 
 	}
 
@@ -66,10 +67,12 @@ require_once("config.php");
 	}
 
 	.border1 {
-		position: relative;
+		position: absolute;
 		width: 355px;
 		height: 225px;
 		border: 2px solid #766260;
+		max-width: 400px;
+		min-width: 200px;
 	}
 
 	.fa-house-chimney {
