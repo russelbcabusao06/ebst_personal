@@ -29,7 +29,7 @@ require_once("config.php");
 		background-color: #fff4f3;
 		position: relative;
 		margin: auto;
-		width: 50%;
+		width: auto;
 		height: 105%;
 		border-radius: 20px;
 	}
