@@ -28,10 +28,11 @@ require_once("config.php");
 	.reservation-box {
 		background-color: #fff4f3;
 		position: relative;
-		margin: auto;
+		margin: 0 auto;
 		width: 30%;
 		height: 105%;
 		border-radius: 20px;
+		border: 3px solid #fff4f3;
 	}
 
 	.img-ebts_logo {
