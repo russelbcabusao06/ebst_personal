@@ -44,7 +44,6 @@ require_once("config.php");
 		width: 50%;
 		margin: 0 auto;
 		position: relative;
-		border: 1px solid #fff4f3;
 		float: center;
 	}
 
