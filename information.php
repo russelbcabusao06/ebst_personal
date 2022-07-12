@@ -30,7 +30,7 @@ require_once("config.php");
 		position: relative;
 		margin: 0 auto;
 		height: 105%;
-		width: 30%;
+		width: 70%;
 		max-width: 576px;
 		padding: 32spx;
 		border-radius: 20px;
