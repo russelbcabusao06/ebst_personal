@@ -41,8 +41,8 @@ require_once("config.php");
 		padding-left: 100px;
 		padding-right: 100px;
 		width: 50%;
-		position: relative
-
+		margin: 0 auto;
+		position: relative;
 	}
 
 	.fa-circle-xmark {
@@ -74,6 +74,7 @@ require_once("config.php");
 		width: 355px;
 		height: 225px;
 		border: 2px solid #766260;
+		margin: 0 auto;
 	}
 
 	.fa-house-chimney {
@@ -190,6 +191,7 @@ require_once("config.php");
 		width: 355px;
 		height: 140px;
 		border: 2px solid #766260;
+		margin: 0 auto;
 	}
 
 	.current-date {
