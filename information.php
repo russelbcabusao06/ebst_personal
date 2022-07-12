@@ -26,17 +26,12 @@ require_once("config.php");
 	}
 
 	.reservation-box {
-		background-color: #red;
+		background-color: #fff4f3;
 		position: relative;
 		margin: 0 auto;
 		width: 30%;
 		height: 105%;
 		border-radius: 20px;
-		background-origin: content-box;
-  		background-repeat: no-repeat;
-  		background-size: cover;
-  		border: 5px #red solid;
-  		padding: 20px;
 	}
 
 	.img-ebts_logo {
