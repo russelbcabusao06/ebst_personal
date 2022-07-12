@@ -31,10 +31,6 @@ require_once("config.php");
 		margin: 0 auto;
 		height: 105%;
 		width: 30%;
-		max-width: 576px;
-		padding: 16px;
-		border-radius: 20px;
-		border: 4px solid #fff4f3;
 	}
 
 	.img-ebts_logo {
