@@ -31,7 +31,7 @@ require_once("config.php");
 		margin: 0 auto;
 		height: 500px;
 		height: 105%;
-		width: 1000px;
+		width: 500px;
 		border: 1px solid #fff4f3;
 		border-radius: 20px;
 		float: center:
