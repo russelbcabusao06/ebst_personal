@@ -22,7 +22,7 @@ require_once("config.php");
 		font-family: 'Raleway', sans-serif;
 		font-family: 'Source Sans Pro', sans-serif;
 		margin: 0 auto;
-		padding: 0;
+		padding: 50px;
 	}
 
 	.reservation-box {
