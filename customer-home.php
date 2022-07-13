@@ -317,11 +317,11 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
-      $sql = "SELECT *from tbl_customer";
+      $sql = "SELECT *from tbl_picture";
       $result = $conn->query($sql);
       if ($result->num_rows > 0){
         while($row = $result->fetch_assoc()){?>
-              <li><a href= "customer-home.php"><?php echo $row['name'] ?></a></li>
+              <li><a href= "tbl_picture"><?php echo $row['name'] ?></a></li>
       <?php  }
       }
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
