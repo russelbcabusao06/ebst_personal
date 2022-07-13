@@ -93,7 +93,6 @@ INSERT INTO `tbl_customer` (`id`, `fullname`, `address`, `mobile_number`, `birth
 (6, 'Char', 'marikina kanto', '123123123123123123', '2022-03-03', 'qweqwe@gmail.com', 'charles20', 'qwerty123456'),
 (0, 'Khirk', 'balintawak', '09269368630', '1999-08-11', 'mendozatann@gmail.com', 'khirk', '123'),
 
-
 -- --------------------------------------------------------
 
 --
