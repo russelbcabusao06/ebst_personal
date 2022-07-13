@@ -317,7 +317,7 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
-      $sql = "SELECT *from tbl_picture";
+      $sql = "SELECT *from tbl_customer";
       $result = $conn->query($sql);
       if ($result->num_rows > 0){
         while($row = $result->fetch_assoc()){?>
