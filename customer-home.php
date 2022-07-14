@@ -320,7 +320,7 @@ require_once("config.php");
     $sql = "SELECT * from tbl_picture;";
     $result = mysqli_query($sql);
     if($result->num_rows>0){
-      while($row = $result->fetch_assoc()){?>
+      while($row = $result->fetch_assoc($result)){?>
       <?php echo $row['name']?>
       <?php}
     }
