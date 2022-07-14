@@ -319,7 +319,7 @@ require_once("config.php");
     <?php
       $sql = "SELECT * FROM tbl_picture";
       $result =$conn-> query($sql);
-      $resultcheck = mysqli_num_rows($result);
+      
 
       if ($resultcheck->num_rows > 0){
         while($row = $result ->fetch_assoc($result)){?>
