@@ -322,7 +322,7 @@ require_once("config.php");
       $resultcheck = mysqli_num_rows($result);
 
       if ($resultcheck->num_rows > 0){
-        while($row = fetch_assoc($result)){
+        while($row = $result ->fetch_assoc($result)){
           echo $row ['name'] ?>
           <?php
         }
