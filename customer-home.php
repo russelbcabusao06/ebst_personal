@@ -318,6 +318,7 @@ require_once("config.php");
   <div class="container">
     <?php
     $sql = "SELECT * from tbl_picture;";
+    $result = $conn->query($sql);
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
