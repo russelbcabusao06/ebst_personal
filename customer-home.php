@@ -319,6 +319,9 @@ require_once("config.php");
     <?php
     $sql = "SELECT * from tbl_picture;";
     $result = $conn->query($sql);
+    if ($result->num_rows> 0){
+      while ($row = $result->fetch_assoc($result))
+    }
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
