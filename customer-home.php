@@ -317,9 +317,6 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
-      include_once 'db_ebts.sql';
-    ?>
-    <?php
       $sql = "SELECT * FROM tbl_picture";
       $result =$conn->mysqli_query($conn, $sql);
       $resultcheck = mysqli_num_rows($result);
