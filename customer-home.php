@@ -317,7 +317,7 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
-    $dbtbl_picture = "localhost";
+    $dbtbl_picture = "db_ebts";
     $dbid = "root";
     $dbname = "tbl_picture";
     $conn = mysqli_connect($dbtbl_picture, $dbid, $dbname);
