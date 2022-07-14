@@ -322,8 +322,8 @@ require_once("config.php");
       $resultcheck = mysqli_num_rows($result);
 
       if ($resultcheck->num_rows > 0){
-        while($row = $result ->fetch_assoc($result)){
-          echo $row ['name'] ?>
+        while($row = $result ->fetch_assoc($result)){?>
+          <li><a href="http://localhost/phpmyadmin/index.php?route=/sql&pos=0&db=db_ebts&table=tbl_picture"> <?php echo $row ['name'] ?></a><li>
           <?php
         }
       }
