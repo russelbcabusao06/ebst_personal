@@ -318,7 +318,7 @@ require_once("config.php");
   <div class="container">
     <?php
       $sql = "SELECT * FROM tbl_picture";
-      $result =$conn->mysqli_query($conn, $sql);
+      $result =mysqli_query($sql);
       $resultcheck = mysqli_num_rows($result);
 
       if ($resultcheck > 0){
