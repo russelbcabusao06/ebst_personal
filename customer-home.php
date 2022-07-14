@@ -317,6 +317,12 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
+    $dbtbl_picture = "localhost";
+    $dbid = "root";
+    $dbname = "tbl_picture";
+    $conn = mysqli_connect($dbtbl_picture, $dbid, $dbname);
+    ?>
+    <?php
     $sql = "SELECT * from tbl_picture;";
     $result = $conn->query($sql);
     if ($result->num_rows> 0){
