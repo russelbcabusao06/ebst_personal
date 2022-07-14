@@ -322,8 +322,8 @@ require_once("config.php");
     if($result->num_rows>0){
       while($row = $result->fetch_assoc($result)){?>
       <?php echo $row['name']?>
-      <?php}
-    }
+      <?php
+    }}
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
