@@ -317,20 +317,6 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
-    $dbdb_ebts = "tbl_picture";
-    $dbname = "name";
-    $conn = mysqli_connect($dbtbl_picture, $dbname);
-    ?>
-    <?php
-    $sql = "SELECT * from tbl_picture;";
-    $result = $conn->query($sql);
-    if ($result->num_rows> 0){
-      while ($row = $result->fetch_assoc($result)){
-        echo $row['name'];
-      }
-    }
-    ?>
-    <?php
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
