@@ -317,8 +317,8 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
-    $dbtbl_picture = "db_ebts";
-    $dbname = "tbl_picture";
+    $dbdb_ebts = "tbl_picture";
+    $dbname = "name";
     $conn = mysqli_connect($dbtbl_picture, $dbname);
     ?>
     <?php
@@ -326,7 +326,7 @@ require_once("config.php");
     $result = $conn->query($sql);
     if ($result->num_rows> 0){
       while ($row = $result->fetch_assoc($result)){
-        echo $row['name_id'];
+        echo $row['name'];
       }
     }
     ?>
