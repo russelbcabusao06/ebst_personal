@@ -320,7 +320,7 @@ require_once("config.php");
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
-    while ($row = $stat->fetch('Tanza')) {
+    while ($row = $stat->fetch()) {
       echo "<div class='quote'><embed src='data:image/jpg" . ";base64," . base64_encode($row['data']) . "' width='350' height='230' />";
       echo "<h3 style='width:100%;font-size:1.8em;'><b><center>NAME OF CONDO</center></b></h3>";
       echo "<h3 style='font-size:1.17em;overflow:auto;font-family:Moonglade;'><br><img src='image/location-removebg-preview.png' style='width:6%;'>" . $row['location'] . "</h3>";
