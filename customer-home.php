@@ -317,6 +317,21 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
+      include_once 'db_ebts.sql';
+    ?>
+    <?php
+      $sql = "SELECT * FROM tbl_picture";
+      $result =$conn->query($sql);
+      $resultcheck = query($result);
+
+      if ($resultcheck > 0){
+        while($row = fetch_assoc($result)){
+          echo $row ['name'] ?>
+          <?php
+        }
+      }
+    ?>
+    <?php
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
