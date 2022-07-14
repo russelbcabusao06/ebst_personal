@@ -318,12 +318,6 @@ require_once("config.php");
   <div class="container">
     <?php
     $sql = "SELECT * from tbl_picture;";
-    $result = mysqli_query($sql);
-    if($result->num_rows>0){
-      while($row = $result->fetch_assoc($result)){?>
-      <?php echo $row['name']?>
-      <?php
-    }}
     $dbh = new PDO("mysql:host=localhost;dbname=db_ebts", "root", "");
     $stat = $dbh->prepare("SELECT * from tbl_picture");
     $stat->execute();
