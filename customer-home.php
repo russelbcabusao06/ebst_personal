@@ -318,9 +318,8 @@ require_once("config.php");
   <div class="container">
     <?php
     $dbtbl_picture = "db_ebts";
-    $dbid = "root";
     $dbname = "tbl_picture";
-    $conn = mysqli_connect($dbtbl_picture, $dbid, $dbname);
+    $conn = mysqli_connect($dbtbl_picture, $dbname);
     ?>
     <?php
     $sql = "SELECT * from tbl_picture;";
