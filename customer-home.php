@@ -317,7 +317,7 @@ require_once("config.php");
   </script>
   <div class="container">
     <?php
-      $sql = "SELECT * FROM tbl_picture";
+      $sql = "SELECT * FROM db_ebts";
       $result =mysqli_query($sql);
       $resultcheck = mysqli_num_rows($result);
 
