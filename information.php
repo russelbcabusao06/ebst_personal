@@ -28,17 +28,22 @@ require_once("config.php");
 	.reservation-box {
 		background-color: #fff4f3;
 		position: relative;
-		margin: auto;
-		width: 30%;
+		margin: 0 auto;
+		height: 500px;
 		height: 105%;
+		width: 450px;
+		border: 1px solid #fff4f3;
 		border-radius: 20px;
+		float: center:
 	}
 
 	.img-ebts_logo {
 		padding-left: 100px;
 		padding-right: 100px;
 		width: 50%;
-
+		margin: 0 auto;
+		position: relative;
+		float: center;
 	}
 
 	.fa-circle-xmark {
@@ -70,6 +75,7 @@ require_once("config.php");
 		width: 355px;
 		height: 225px;
 		border: 2px solid #766260;
+		margin: 0 auto;
 	}
 
 	.fa-house-chimney {
@@ -128,6 +134,10 @@ require_once("config.php");
 		width: 100px;
 	}
 
+	.pullquote {
+		width: 350px;
+	}
+
 	.location {
 		position: absolute;
 		top: 90;
@@ -172,7 +182,7 @@ require_once("config.php");
 		font-family: "Times New Roman", Times, serif;
 		font-size: 15px;
 		font-weight: bold;
-		color: #786462;
+		color: #786462; 
 		margin-left: 10px;
 		margin-top: 20px;
 	}
@@ -182,6 +192,7 @@ require_once("config.php");
 		width: 355px;
 		height: 140px;
 		border: 2px solid #766260;
+		margin: 0 auto;
 	}
 
 	.current-date {
